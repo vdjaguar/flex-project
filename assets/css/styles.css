@@ -9,3 +9,87 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/*Logo*/
+    .logo {
+        margin-right: 29px;
+    }
+/*Logo/ */
+
+/*Main navigation*/
+    .main-navigation {
+        padding: 17px 0 19px;
+        background-color: #121214;
+    }
+
+    .menu-area__list {
+        list-style: none;
+        gap: 20px;
+    }
+    .menu-area__item a {
+        font-size: 16px;
+        line-height: 20px;
+        color: #A6A8AD;
+        text-decoration: none;
+
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .menu-area__item:hover a,
+    .menu-area__item.active a {
+        color: #fff;
+    }
+/*Main navigation/ */
+
+/*Login*/
+    .top-header-right {
+        gap: 20px;
+    }
+    .login button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        line-height: 20px;
+        color: #A6A8AD;
+        cursor: pointer;
+    }
+
+    .sign-up button {
+        padding: 8px 20px 7px;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #121214;
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        border-radius: 32px;
+    }
+/*Login/ */
+
+/*Extra classes*/
+    .container {
+        width: 1187px;
+        margin: 0 auto;
+    }
+    .d-flex {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .justify-between {
+        justify-content: space-between;
+    }
+    .align-center {
+        align-items: center;
+    }
+/*Extra classes/ */
