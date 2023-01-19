@@ -159,12 +159,6 @@ header {
     }
 /*Extra classes/ */
 
-
-.page-3 {
-    background-color: #121214;
-    display: flex;
-}
-
 .p-text {
     flex-grow: 1;
     color: white;
@@ -204,14 +198,24 @@ header {
     background-color: #0033FF;
 }
 
-.img {
-    padding-left: 83px;
-}
+
 
 .container-in {
     width: 1134px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.direction {
+    flex-direction: row-reverse;
+}
+
+.alright {
+    text-align: right;
+}
+
+.fright {
+    float: right;
 }
 
 .container-2 {
