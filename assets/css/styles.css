@@ -12,6 +12,69 @@ body {
     background-color: #121214;
 }
 
+.block {    
+    padding-top: 140px;
+    padding-bottom: 214px;
+    background: url(../img/IMAGE-01.jpg);
+    background-size: cover; 
+    
+}
+
+.try-free_btn {
+    width: 125px;
+    height: 56px;
+    left: 48px;
+    top: 591px;
+
+    background: #0033FF;
+    border-radius: 8px;
+}
+
+.block h1 {
+    margin-bottom: 26px;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px; 
+    letter-spacing: 1.08px;
+    color: #FFFFFF;
+}
+
+.block p {
+    margin-bottom: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+header {
+    position: relative;
+}
+
+.learn-more {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.learn-more::after {
+    content: url(../img/arrow.svg);
+    display: inline-block;
+
+
+}
+
+.learn-more span {
+    display: block;
+    margin-bottom: 17px;
+}
+
 /*Logo*/
     .logo {
         margin-right: 29px;
@@ -153,4 +216,8 @@ body {
 
 .fright {
     float: right;
+}
+
+.container-2 {
+    max-width: 460px;
 }
