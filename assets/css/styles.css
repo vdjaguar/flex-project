@@ -9,3 +9,44 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+section {
+    /* position: absolute; */
+    
+}
+
+.block {    
+    /* width: 1200px; */
+    height: 744px;
+    position: relative;
+    background: url(../img/IMAGE-01.jpg) no-repeat;
+}
+
+.try-free_btn {
+    width: 125px;
+    height: 56px;
+    left: 48px;
+    top: 591px;
+
+    background: #0033FF;
+    border-radius: 8px;
+}
+
+.block h2 {
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px; 
+    letter-spacing: 1.08px;
+    color: #FFFFFF;
+}
+
+.block p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.learn-more {
+    /* dfsd */
+}
