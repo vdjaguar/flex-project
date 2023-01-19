@@ -6,6 +6,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -93,3 +94,52 @@ body {
         align-items: center;
     }
 /*Extra classes/ */
+
+
+.page-3 {
+    background-color: #121214;
+    display: flex;
+}
+
+.p-text {
+    color: white;
+    align-self: center;
+    padding-left: 48px;
+}
+
+.font-1 {
+    font-size: 12px;    
+    color:#A6A8AD;
+    padding-top: 204px;
+}
+
+.font-2 {
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.font-3 {
+    font-size: 16px;
+}
+
+.button {
+    width: 159px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #0033FF;
+    margin-top: 23px;
+}
+
+.button a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+.img {
+    padding-left: 83px;
+}
+
