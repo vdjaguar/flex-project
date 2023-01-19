@@ -96,12 +96,6 @@ body {
     }
 /*Extra classes/ */
 
-
-.page-3 {
-    background-color: #121214;
-    display: flex;
-}
-
 .p-text {
     flex-grow: 1;
     color: white;
@@ -141,9 +135,7 @@ body {
     background-color: #0033FF;
 }
 
-.img {
-    padding-left: 83px;
-}
+
 
 .container-in {
     width: 1134px;
@@ -151,3 +143,14 @@ body {
     margin: 0 auto;
 }
 
+.direction {
+    flex-direction: row-reverse;
+}
+
+.alright {
+    text-align: right;
+}
+
+.fright {
+    float: right;
+}
