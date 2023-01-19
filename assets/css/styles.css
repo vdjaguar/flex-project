@@ -6,20 +6,18 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-section {
-    /* position: absolute; */
-    
+    background-color: #121214;
 }
 
 .block {    
-    /* width: 1200px; */
-    height: 744px;
-    position: relative;
-    background: url(../img/IMAGE-01.jpg) no-repeat;
+    padding-top: 140px;
+    padding-bottom: 214px;
+    background: url(../img/IMAGE-01.jpg);
+    background-size: cover; 
+    
 }
 
 .try-free_btn {
@@ -32,7 +30,8 @@ section {
     border-radius: 8px;
 }
 
-.block h2 {
+.block h1 {
+    margin-bottom: 26px;
     font-weight: normal;
     font-size: 72px;
     line-height: 72px; 
@@ -41,12 +40,180 @@ section {
 }
 
 .block p {
+    margin-bottom: 44px;
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
 }
 
+header {
+    position: relative;
+}
+
 .learn-more {
-    /* dfsd */
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.learn-more::after {
+    content: url(../img/arrow.svg);
+    display: inline-block;
+
+
+}
+
+.learn-more span {
+    display: block;
+    margin-bottom: 17px;
+}
+
+/*Logo*/
+    .logo {
+        margin-right: 29px;
+    }
+/*Logo/ */
+
+/*Main navigation*/
+    .main-navigation {
+        padding: 17px 0 19px;
+        background-color: #121214;
+    }
+
+    .menu-area__list {
+        list-style: none;
+        gap: 20px;
+    }
+    .menu-area__item a {
+        font-size: 16px;
+        line-height: 20px;
+        color: #A6A8AD;
+        text-decoration: none;
+
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .menu-area__item:hover a,
+    .menu-area__item.active a {
+        color: #fff;
+    }
+/*Main navigation/ */
+
+/*Login*/
+    .top-header-right {
+        gap: 20px;
+    }
+    .login button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        line-height: 20px;
+        color: #A6A8AD;
+        cursor: pointer;
+    }
+
+    .sign-up button {
+        padding: 8px 20px 7px;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #121214;
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        border-radius: 32px;
+    }
+/*Login/ */
+
+/*Extra classes*/
+    .container {
+        width: 1187px;
+        margin: 0 auto;
+    }
+    .d-flex {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .justify-between {
+        justify-content: space-between;
+    }
+    .align-center {
+        align-items: center;
+    }
+/*Extra classes/ */
+
+
+.page-3 {
+    background-color: #121214;
+    display: flex;
+}
+
+.p-text {
+    flex-grow: 1;
+    color: white;
+    align-self: center;
+}
+
+.font-1 {
+    font-size: 12px;    
+    color:#A6A8AD;
+    padding-top: 204px;
+}
+
+.font-2 {
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.font-3 {
+    font-size: 16px;
+}
+
+.button {
+    margin-top: 23px;
+}
+
+.button a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 159px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #0033FF;
+}
+
+.img {
+    padding-left: 83px;
+}
+
+.container-in {
+    width: 1134px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 460px;
 }
